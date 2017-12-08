@@ -13,4 +13,5 @@ var changeColor = function () {
 
 // Event listener to call function
 
+
 button.addEventListener('click', changeColor)
