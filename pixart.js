@@ -18,6 +18,6 @@ for (i = 0; i < 8000; i++) {
     square.className = "square";
     document.body.appendChild(square);
     square.addEventListener('mouseover', function() {
-        this.style.backgroundColor = input.value;
+        this.style.backgroundColor = brush.style.backgroundColor;
     })
 }
