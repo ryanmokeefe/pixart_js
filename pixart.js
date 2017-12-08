@@ -12,12 +12,12 @@ var changeColor = function () {
 // Event listener to call function
 button.addEventListener('click', changeColor)
 
-// add Square class divs * 20
-for (i = 0; i < 20; i++) {
+// add Square class divs * 8000
+for (i = 0; i < 8000; i++) {
     square = document.createElement('div');
     square.className = "square";
     document.body.appendChild(square);
-    square.addEventListener('click', function() {
+    square.addEventListener('mouseover', function() {
         this.style.backgroundColor = input.value;
     })
 }
