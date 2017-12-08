@@ -17,4 +17,7 @@ for (i = 0; i < 20; i++) {
     square = document.createElement('div');
     square.className = "square";
     document.body.appendChild(square);
+    square.addEventListener('click', function() {
+        this.style.backgroundColor = "green";
+    })
 }
